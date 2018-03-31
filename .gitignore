@@ -1,0 +1,13 @@
+.vagrant/
+.idea
+composer.phar
+
+clover.xml
+coveralls-upload.json
+phpunit.xml
+vendor/
+.settings/
+logs/
+.buildpath
+.project
+.DS_Store
