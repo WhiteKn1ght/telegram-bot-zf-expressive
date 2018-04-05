@@ -36,4 +36,5 @@ return function (Application $app, MiddlewareFactory $factory, ContainerInterfac
     $app->get('/', App\Handler\HomePageHandler::class, 'home');
     $app->get('/api/ping', App\Handler\PingHandler::class, 'api.ping');
     $app->route('/api/bot', App\Handler\BotHandler::class, ['GET', 'POST'], 'bot.ping');
+    $app->route('/bot/', App\Handler\BotHandler::class,['GET', 'POST'], 'bot.ping.dev');
 };
