@@ -13,7 +13,9 @@ return [
 
     // Enable debugging; typically used to provide debugging information within templates.
     'debug' => false,
-
+    'telegram' => [
+        'api_key' => 'text'
+    ],
     'shiyanbin' => [
         'keyboard' => [["Последние статьи"]],
     ],
